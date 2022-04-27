@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A3EB7C462818267900D76DEA /* Slider_SwiftUI_with_UIkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7C452818267900D76DEA /* Slider_SwiftUI_with_UIkitApp.swift */; };
-		A3EB7C482818267900D76DEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7C472818267900D76DEA /* ContentView.swift */; };
+		A3EB7C482818267900D76DEA /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7C472818267900D76DEA /* SliderView.swift */; };
 		A3EB7C4A2818267B00D76DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7C492818267B00D76DEA /* Assets.xcassets */; };
 		A3EB7C4D2818267B00D76DEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EB7C4C2818267B00D76DEA /* Preview Assets.xcassets */; };
+		A3EB7C54281827FD00D76DEA /* SliderUIkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB7C53281827FD00D76DEA /* SliderUIkit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A3EB7C422818267900D76DEA /* Slider SwiftUI with UIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider SwiftUI with UIkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EB7C452818267900D76DEA /* Slider_SwiftUI_with_UIkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_SwiftUI_with_UIkitApp.swift; sourceTree = "<group>"; };
-		A3EB7C472818267900D76DEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3EB7C472818267900D76DEA /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		A3EB7C492818267B00D76DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3EB7C4C2818267B00D76DEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3EB7C53281827FD00D76DEA /* SliderUIkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIkit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				A3EB7C452818267900D76DEA /* Slider_SwiftUI_with_UIkitApp.swift */,
-				A3EB7C472818267900D76DEA /* ContentView.swift */,
+				A3EB7C472818267900D76DEA /* SliderView.swift */,
+				A3EB7C53281827FD00D76DEA /* SliderUIkit.swift */,
 				A3EB7C492818267B00D76DEA /* Assets.xcassets */,
 				A3EB7C4B2818267B00D76DEA /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EB7C482818267900D76DEA /* ContentView.swift in Sources */,
+				A3EB7C54281827FD00D76DEA /* SliderUIkit.swift in Sources */,
+				A3EB7C482818267900D76DEA /* SliderView.swift in Sources */,
 				A3EB7C462818267900D76DEA /* Slider_SwiftUI_with_UIkitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

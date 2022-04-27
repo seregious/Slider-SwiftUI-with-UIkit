@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Slider_SwiftUI_with_UIkitApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SliderView()
         }
     }
 }
